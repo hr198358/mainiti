@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF0F5"/>
+      <stop offset="100%" stop-color="#EDE8FA"/>
+    </linearGradient>
+    <radialGradient id="ctr" cx="38%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="100%" stop-color="#FFB030"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+
+  <!-- 花びら 5枚（ローズとラベンダーを交互に） -->
+  <g transform="translate(256,256)">
+    <ellipse rx="54" ry="92" cy="-118" fill="#F2A7BF" transform="rotate(0)"/>
+    <ellipse rx="54" ry="92" cy="-118" fill="#C2AEE0" transform="rotate(72)"/>
+    <ellipse rx="54" ry="92" cy="-118" fill="#F2A7BF" transform="rotate(144)"/>
+    <ellipse rx="54" ry="92" cy="-118" fill="#C2AEE0" transform="rotate(216)"/>
+    <ellipse rx="54" ry="92" cy="-118" fill="#F2A7BF" transform="rotate(288)"/>
+  </g>
+
+  <!-- 中央の丸 -->
+  <circle cx="256" cy="256" r="78" fill="url(#ctr)"/>
+  <circle cx="234" cy="234" r="26" fill="rgba(255,255,255,0.42)"/>
+
+  <!-- 小さなキラキラ -->
+  <circle cx="138" cy="108" r="10" fill="#F2A7BF" opacity="0.55"/>
+  <circle cx="392" cy="122" r="8"  fill="#C2AEE0" opacity="0.5"/>
+  <circle cx="402" cy="392" r="9"  fill="#F2A7BF" opacity="0.45"/>
+  <circle cx="108" cy="400" r="7"  fill="#C2AEE0" opacity="0.4"/>
+</svg>
