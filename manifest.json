@@ -9,7 +9,7 @@
   "theme_color": "#F2A7BF",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "miapp.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
